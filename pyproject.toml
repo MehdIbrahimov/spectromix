@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ftir-spectrum-viewer"
+version = "1.0.0"
+description = "A Tkinter and Matplotlib desktop app for visualizing FTIR spectra and tagging functional groups."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.7",
+]
+
+[project.scripts]
+ftir-viewer = "spectromix.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spectromix = ["functional_groups.json"]

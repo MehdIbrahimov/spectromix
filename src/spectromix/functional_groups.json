@@ -1,0 +1,116 @@
+[
+    {
+        "label": "O-H / N-H",
+        "min_cm": 3150,
+        "max_cm": 3600,
+        "vibration": "Hydrogen-bonded O-H and N-H stretching"
+    },
+    {
+        "label": "=C-H (arom.)",
+        "min_cm": 3000,
+        "max_cm": 3120,
+        "vibration": "Aromatic C-H stretching"
+    },
+    {
+        "label": "C-H (aliph.)",
+        "min_cm": 2830,
+        "max_cm": 2980,
+        "vibration": "Aliphatic CH2 and CH3 stretching"
+    },
+    {
+        "label": "CO2 (atm.)",
+        "min_cm": 2300,
+        "max_cm": 2385,
+        "vibration": "Atmospheric CO2 asymmetric stretching artifact"
+    },
+    {
+        "label": "C=O (ester/acid)",
+        "min_cm": 1705,
+        "max_cm": 1765,
+        "vibration": "Carboxyl or ester C=O stretching"
+    },
+    {
+        "label": "Amide I (C=O)",
+        "min_cm": 1635,
+        "max_cm": 1695,
+        "vibration": "Amide I C=O stretching"
+    },
+    {
+        "label": "N-H / C=N",
+        "min_cm": 1580,
+        "max_cm": 1634,
+        "vibration": "Primary amine N-H bending or imine C=N stretching"
+    },
+    {
+        "label": "Amide II",
+        "min_cm": 1520,
+        "max_cm": 1579,
+        "vibration": "N-H bending coupled with C-N stretching"
+    },
+    {
+        "label": "C=C (arom.)",
+        "min_cm": 1475,
+        "max_cm": 1519,
+        "vibration": "Aromatic ring skeletal C=C stretching"
+    },
+    {
+        "label": "CH2 / CH3 bend",
+        "min_cm": 1405,
+        "max_cm": 1470,
+        "vibration": "Aliphatic C-H bending and scissoring"
+    },
+    {
+        "label": "CH3 sym. bend",
+        "min_cm": 1360,
+        "max_cm": 1400,
+        "vibration": "Symmetric CH3 deformation"
+    },
+    {
+        "label": "Amide III / C-N",
+        "min_cm": 1280,
+        "max_cm": 1350,
+        "vibration": "C-N stretching and N-H in-plane bending"
+    },
+    {
+        "label": "C-O / C-N",
+        "min_cm": 1190,
+        "max_cm": 1275,
+        "vibration": "Ester/ether C-O or aromatic C-N stretching"
+    },
+    {
+        "label": "C-O-C (bridge)",
+        "min_cm": 1135,
+        "max_cm": 1185,
+        "vibration": "Asymmetric glycosidic C-O-C bridge stretching"
+    },
+    {
+        "label": "C-O / B-F / PO4",
+        "min_cm": 1055,
+        "max_cm": 1130,
+        "vibration": "Skeletal C-O stretching (overlaps B-F and phosphate stretching)"
+    },
+    {
+        "label": "C-O (ring)",
+        "min_cm": 980,
+        "max_cm": 1054,
+        "vibration": "Pyranose ring C-O and C-OH stretching"
+    },
+    {
+        "label": "Glycosidic",
+        "min_cm": 880,
+        "max_cm": 955,
+        "vibration": "Glycosidic linkage vibration and ring C-H deformation"
+    },
+    {
+        "label": "Arom. C-H (oop)",
+        "min_cm": 710,
+        "max_cm": 850,
+        "vibration": "Aromatic C-H out-of-plane bending"
+    },
+    {
+        "label": "Fe-O / PO4",
+        "min_cm": 530,
+        "max_cm": 635,
+        "vibration": "Metal-oxygen Fe-O stretching or phosphate O-P-O bending"
+    }
+]
